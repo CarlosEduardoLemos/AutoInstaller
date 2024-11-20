@@ -1,6 +1,6 @@
-from os_verifier import verificar_sistema_operacional
-from installer_windows import instalar_aplicativos_windows
-from installer_linux import executar_como_administrador_linux, instalar_aplicativos_linux
+from scripts.os_verifier import verificar_sistema_operacional
+from scripts.installer_windows import instalar_aplicativos_windows
+from scripts.installer_linux import executar_como_administrador_linux, instalar_aplicativos_linux
 
 # Dicionário de aplicativos
 aplicativos = {
